@@ -1,0 +1,42 @@
+{
+  "name": "battle-of-planets",
+  "version": "1.0.1",
+  "description": "battle-of-planets app",
+  "keywords": [
+    "r3f",
+    "react",
+    "three",
+    "vite",
+    "starter",
+    "react three fiber",
+    "sandbox",
+    "codesandbox"
+  ],
+  "author": "Kiryl hovar",
+  "repository": "https://github.com/kirillGovor/Battle-of-planets",
+  "license": "MIT",
+  "dependencies": {
+    "@react-three/drei": "9.56.28",
+    "@react-three/fiber": "8.11.5",
+    "gltfjsx": "^6.1.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "three": "0.150.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^3.1.0",
+    "vite": "^4.1.4"
+  },
+  "scripts": {
+    "dev": "vite --host",
+    "sandbox": "APP_ENV=sandbox vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
